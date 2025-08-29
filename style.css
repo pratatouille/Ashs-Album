@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #350202;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+    position: absolute;
+    width: 256px; /* resize icons */
+    height: 256px;
+    cursor: pointer;
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.collage img {
+    max-width: 250px;
+    cursor: pointer;
+}
